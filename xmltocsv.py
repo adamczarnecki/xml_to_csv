@@ -19,7 +19,6 @@ csvwriter.writerow(productHead)
 
 namespaces = {'g': 'http://base.google.com/ns/1.0'}
 
-count = 0
 prodCout = 0
 prodCout1 = 0
 for member in root.findall('item', namespaces):
